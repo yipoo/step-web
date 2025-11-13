@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@next/third-parties": "^16.0.2",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "gray-matter": "^4.0.3",
     "next": "16.0.2",
     "next-intl": "^4.5.2",
