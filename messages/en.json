@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "blog": "Blog",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Every Step Counts",
+    "subtitle": "Smart Todo List for Your Journey",
+    "description": "Step is an intelligent todo list app that helps you take control of your rhythm, build habits, and achieve your goals.",
+    "downloadButton": "Free Download",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Core Features",
+    "subtitle": "Simple yet powerful features at your fingertips",
+    "quickAdd": {
+      "title": "5-Second Quick Add",
+      "description": "Create todos instantly using natural language. \"Meeting at 3pm tomorrow important\" - automatically recognizes time and priority."
+    },
+    "habits": {
+      "title": "Build Habits, Track Progress",
+      "description": "Daily runs, weekly study sessions, custom frequencies. Streak counters and completion trends make your progress visible."
+    },
+    "pomodoro": {
+      "title": "Focus for 25 Minutes",
+      "description": "Integrated Pomodoro technique. Set estimated tomatoes for tasks, track actual focus time. See your productivity at a glance."
+    },
+    "statistics": {
+      "title": "Track Growth with Data",
+      "description": "Daily/weekly task completion, completion rate trends, Pomodoro statistics. Visualize your progress journey."
+    }
+  },
+  "why": {
+    "title": "Why Choose Step",
+    "minimalist": {
+      "title": "Minimalist Design",
+      "description": "Ready to use, no learning curve"
+    },
+    "local": {
+      "title": "Local Storage",
+      "description": "Data security, privacy protected"
+    },
+    "free": {
+      "title": "Completely Free",
+      "description": "No ads, no subscriptions"
+    },
+    "native": {
+      "title": "Native Experience",
+      "description": "100% SwiftUI development"
+    }
+  },
+  "cta": {
+    "title": "Start Your First Step",
+    "subtitle": "Make every step count, starting today",
+    "button": "Download Now"
+  },
+  "footer": {
+    "slogan": "Every Step Counts",
+    "product": "Product",
+    "features": "Features",
+    "download": "Download",
+    "support": "Support",
+    "help": "Help Center",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "copyright": "© 2025 Step. All rights reserved."
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Productivity tips, product updates, and growth stories",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "latestPosts": "Latest Posts"
+  }
+}
+

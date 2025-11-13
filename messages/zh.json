@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "blog": "博客",
+    "download": "下载"
+  },
+  "hero": {
+    "title": "不积跬步，无以至千里",
+    "subtitle": "智能待办清单，让每一步都算数",
+    "description": "Step（跬步）是一款帮助你掌控节奏、养成习惯、实现目标的智能待办清单应用。",
+    "downloadButton": "免费下载",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "title": "核心功能",
+    "subtitle": "简洁而强大的功能，让效率触手可及",
+    "quickAdd": {
+      "title": "5秒快速添加",
+      "description": "使用自然语言快速创建待办，\"明天下午3点开会 重要\"，自动识别时间和优先级。想到即记录，灵感不流失。"
+    },
+    "habits": {
+      "title": "养成习惯，见证坚持",
+      "description": "每天晨跑、每周学习、自定义频率。连续打卡天数、完成率趋势，让进步可见。把目标变成生活方式。"
+    },
+    "pomodoro": {
+      "title": "专注每一个25分钟",
+      "description": "结合番茄工作法，为任务设置预计番茄数，记录实际专注时长。今天完成了几个番茄钟？数据一目了然。"
+    },
+    "statistics": {
+      "title": "用数据记录成长",
+      "description": "每日/每周完成任务数、完成率趋势、番茄钟统计。用数据和图表，看见自己的进步轨迹。"
+    }
+  },
+  "why": {
+    "title": "为什么选择 Step",
+    "minimalist": {
+      "title": "极简设计",
+      "description": "上手即用，无需学习"
+    },
+    "local": {
+      "title": "本地存储",
+      "description": "数据安全，保护隐私"
+    },
+    "free": {
+      "title": "完全免费",
+      "description": "无广告，无订阅"
+    },
+    "native": {
+      "title": "原生体验",
+      "description": "100% SwiftUI 开发"
+    }
+  },
+  "cta": {
+    "title": "开始你的第一步",
+    "subtitle": "从今天开始，让每一步都算数",
+    "button": "立即下载"
+  },
+  "footer": {
+    "slogan": "不积跬步，无以至千里",
+    "product": "产品",
+    "features": "功能介绍",
+    "download": "下载应用",
+    "support": "支持",
+    "help": "帮助中心",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "copyright": "© 2025 Step. 保留所有权利。"
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "分享效率技巧、产品更新和成长故事",
+    "readMore": "阅读更多",
+    "backToBlog": "返回博客",
+    "latestPosts": "最新文章"
+  }
+}
+
