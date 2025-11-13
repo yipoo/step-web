@@ -1,7 +1,7 @@
 ---
-title: Complete Pomodoro Technique Guide: Boost Focus with Step
+title: "Complete Pomodoro Technique Guide: Boost Focus with Step"
 date: 2025-11-12
-excerpt: A detailed guide to the Pomodoro Technique and practical tips on using Step's Pomodoro timer to improve work efficiency.
+excerpt: "A detailed guide to the Pomodoro Technique and practical tips on using Step's Pomodoro timer to improve work efficiency."
 author: Step Team
 tags: ['Pomodoro', 'Time Management', 'Focus']
 ---

@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 
-export async function generateStaticParams({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
+export async function generateStaticParams({ params }: { params: { locale: string } }) {
+  const locale = params.locale;
   const slugs = getAllPostSlugs(locale);
   return slugs.map((slug) => ({ slug }));
 }
