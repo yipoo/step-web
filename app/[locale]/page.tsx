@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
+import Image from "next/image";
 import ParticleQuote from "@/components/ParticleQuote";
 
 export default async function Home({
@@ -91,13 +92,16 @@ export default async function Home({
           </div>
 
           {/* App Screenshot Mockup */}
-          <div className="mt-16 relative mx-auto max-w-3xl">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-brand-blue to-brand-indigo p-1">
-              <div className="bg-white dark:bg-gray-900 rounded-xl p-8">
-                <div className="aspect-[16/10] bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center">
-                  <p className="text-gray-400 text-lg">App Screenshot</p>
-                </div>
-              </div>
+          <div className="mt-16 relative mx-auto max-w-md">
+            <div className="relative">
+              <Image
+                src="/screenshots/home-screen.png"
+                alt="StepToDo App Screenshot"
+                width={393}
+                height={852}
+                className="rounded-3xl shadow-2xl"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -173,7 +177,7 @@ export default async function Home({
           </h2>
           <p className="text-xl text-blue-100 mb-8">{t("cta.subtitle")}</p>
           <a
-            href="https://apps.apple.com"
+            href="https://apps.apple.com/cn/app/step-to-do/id6756157043?l=en-GB"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-lg text-brand-blue bg-white hover:bg-gray-100 transition-all hover:scale-105 shadow-lg"

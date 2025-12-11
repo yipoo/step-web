@@ -1,9 +1,19 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 
 export default async function FeaturesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations();
+
+  const screenshotMap = [
+    '/screenshots/task-detail.png',
+    '/screenshots/habit-detail.png',
+    '/screenshots/focus-mode.png',
+    '/screenshots/home-checkin.png',
+    '/screenshots/task-detail.png',
+    '/screenshots/date-picker.png',
+  ];
 
   const detailedFeatures = [
     {
@@ -53,7 +63,7 @@ export default async function FeaturesPage({ params }: { params: Promise<{ local
     {
       icon: '🏷️',
       title: locale === 'zh' ? '多维度分类系统' : 'Multi-dimensional Classification',
-      description: locale === 'zh' 
+      description: locale === 'zh'
         ? '通过分类、标签、时间等多个维度组织任务。工作、生活、学习，清晰分类。'
         : 'Organize tasks through categories, tags, and time dimensions. Work, life, study - clearly categorized.',
       benefits: [
@@ -140,10 +150,14 @@ export default async function FeaturesPage({ params }: { params: Promise<{ local
 
                 {/* Mockup */}
                 <div className="flex-1">
-                  <div className="relative">
-                    <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-2xl shadow-2xl flex items-center justify-center">
-                      <p className="text-gray-400 text-lg">{feature.icon}</p>
-                    </div>
+                  <div className="relative flex justify-center">
+                    <Image
+                      src={screenshotMap[index]}
+                      alt={feature.title}
+                      width={393}
+                      height={852}
+                      className="rounded-3xl shadow-2xl max-w-sm"
+                    />
                   </div>
                 </div>
               </div>

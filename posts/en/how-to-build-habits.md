@@ -128,5 +128,5 @@ Come back to this article in 21 days and tell me your results!
 
 **Remember: Every step counts. Small daily progress leads to a better you.**
 
-[Download Step Now](https://apps.apple.com)
+[Download Step Now](https://apps.apple.com/cn/app/step-to-do/id6756157043?l=en-GB)
 

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import LanguageSwitcher from './LanguageSwitcher';
 
@@ -23,9 +24,14 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href={`/${locale}`} className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-brand-blue to-brand-indigo rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
-              </div>
+              <Image
+                src="/app-icon.png"
+                alt="StepToDo"
+                width={32}
+                height={32}
+                className="rounded-lg"
+                unoptimized
+              />
               <span className="text-xl font-semibold text-gray-900 dark:text-white">Step</span>
             </Link>
           </div>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://stepapp.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.steptodo.cn'),
   title: 'Step - 跬步',
   description: '不积跬步，无以至千里',
   manifest: '/site.webmanifest',

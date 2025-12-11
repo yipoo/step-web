@@ -128,5 +128,5 @@ tags: ['习惯养成', '使用技巧']
 
 **记住：不积跬步，无以至千里。每一天的小进步，都会成就更好的自己。**
 
-[立即下载 Step](https://apps.apple.com)
+[立即下载 Step](https://apps.apple.com/cn/app/step-to-do/id6756157043?l=en-GB)
 

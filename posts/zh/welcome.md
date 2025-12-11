@@ -73,7 +73,7 @@ tags: ['产品发布', '功能介绍']
 
 从今天开始，让每一步都算数。
 
-[立即下载 Step](https://apps.apple.com)
+[立即下载 Step](https://apps.apple.com/cn/app/step-to-do/id6756157043?l=en-GB)
 
 ---
 

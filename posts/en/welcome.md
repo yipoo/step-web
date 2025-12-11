@@ -73,7 +73,7 @@ Track growth with data:
 
 Make every step count, starting today.
 
-[Download Step Now](https://apps.apple.com)
+[Download Step Now](https://apps.apple.com/cn/app/step-to-do/id6756157043?l=en-GB)
 
 ---
 
