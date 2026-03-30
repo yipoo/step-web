@@ -6,9 +6,9 @@
     "download": "Download"
   },
   "hero": {
-    "title": "Every Step Counts",
+    "title": "Every MemoryAI Counts",
     "subtitle": "Smart Todo List for Your Journey",
-    "description": "Step is an intelligent todo list app that helps you take control of your rhythm, build habits, and achieve your goals.",
+    "description": "MemoryAI is an intelligent todo list app that helps you take control of your rhythm, build habits, and achieve your goals.",
     "downloadButton": "Free Download",
     "learnMore": "Learn More"
   },
@@ -33,7 +33,7 @@
     }
   },
   "why": {
-    "title": "Why Choose Step",
+    "title": "Why Choose MemoryAI",
     "minimalist": {
       "title": "Minimalist Design",
       "description": "Ready to use, no learning curve"
@@ -52,12 +52,12 @@
     }
   },
   "cta": {
-    "title": "Start Your First Step",
-    "subtitle": "Make every step count, starting today",
+    "title": "Start with MemoryAI",
+    "subtitle": "Make every memory count, starting today",
     "button": "Download Now"
   },
   "footer": {
-    "slogan": "Every Step Counts",
+    "slogan": "Every MemoryAI Counts",
     "product": "Product",
     "features": "Features",
     "download": "Download",
@@ -66,7 +66,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "contact": "Contact Us",
-    "copyright": "© 2025 Step. All rights reserved."
+    "copyright": "© 2025 MemoryAI. All rights reserved."
   },
   "blog": {
     "title": "Blog",

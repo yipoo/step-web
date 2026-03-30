@@ -9,8 +9,8 @@ export default async function HelpPage({ params }: { params: Promise<{ locale: s
     {
       question: locale === 'zh' ? '如何快速添加待办事项？' : 'How to quickly add a todo?',
       answer: locale === 'zh' 
-        ? '点击"+"按钮或使用快捷键，输入内容如"明天下午3点开会 重要"，Step 会自动识别时间和优先级。支持自然语言输入，让添加任务变得简单快速。'
-        : 'Click the "+" button or use keyboard shortcuts, type something like "Meeting at 3pm tomorrow important", and Step will automatically recognize time and priority. Natural language input makes adding tasks simple and fast.',
+        ? '点击"+"按钮或使用快捷键，输入内容如"明天下午3点开会 重要"，MemoryAI 会自动识别时间和优先级。支持自然语言输入，让添加任务变得简单快速。'
+        : 'Click the "+" button or use keyboard shortcuts, type something like "Meeting at 3pm tomorrow important", and MemoryAI will automatically recognize time and priority. Natural language input makes adding tasks simple and fast.',
     },
     {
       question: locale === 'zh' ? '如何使用循环任务功能？' : 'How to use recurring tasks?',
@@ -31,16 +31,16 @@ export default async function HelpPage({ params }: { params: Promise<{ locale: s
         : 'All data is stored locally on your device, not uploaded to the cloud. You have complete control over your data without privacy concerns. Optional iCloud sync will be available in the future.',
     },
     {
-      question: locale === 'zh' ? 'Step 是免费的吗？' : 'Is Step free?',
+      question: locale === 'zh' ? 'MemoryAI 是免费的吗？' : 'Is MemoryAI free?',
       answer: locale === 'zh'
-        ? 'Step 完全免费，无广告，无内购，无订阅。我们相信好的工具应该让更多人使用。未来可能会推出付费的高级功能，但核心功能永久免费。'
-        : 'Step is completely free with no ads, in-app purchases, or subscriptions. We believe good tools should be accessible to everyone. Premium features may be introduced in the future, but core features will always be free.',
+        ? 'MemoryAI 完全免费，无广告，无内购，无订阅。我们相信好的工具应该让更多人使用。未来可能会推出付费的高级功能，但核心功能永久免费。'
+        : 'MemoryAI is completely free with no ads, in-app purchases, or subscriptions. We believe good tools should be accessible to everyone. Premium features may be introduced in the future, but core features will always be free.',
     },
     {
       question: locale === 'zh' ? '如何设置任务提醒？' : 'How to set task reminders?',
       answer: locale === 'zh'
-        ? '在任务详情中点击"提醒"按钮，选择提醒时间。可以设置在截止时间前提醒，或为循环任务设置每日提醒。确保在系统设置中允许 Step 发送通知。'
-        : 'In task details, click the "Reminder" button and select reminder time. You can set reminders before deadline or daily reminders for recurring tasks. Make sure Step has notification permission in system settings.',
+        ? '在任务详情中点击"提醒"按钮，选择提醒时间。可以设置在截止时间前提醒，或为循环任务设置每日提醒。确保在系统设置中允许 MemoryAI 发送通知。'
+        : 'In task details, click the "Reminder" button and select reminder time. You can set reminders before deadline or daily reminders for recurring tasks. Make sure MemoryAI has notification permission in system settings.',
     },
     {
       question: locale === 'zh' ? '如何查看统计数据？' : 'How to view statistics?',
@@ -79,8 +79,8 @@ export default async function HelpPage({ params }: { params: Promise<{ locale: s
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
               {locale === 'zh' 
-                ? '常见问题解答，帮助您更好地使用 Step' 
-                : 'Frequently asked questions to help you better use Step'}
+                ? '常见问题解答，帮助您更好地使用 MemoryAI' 
+                : 'Frequently asked questions to help you better use MemoryAI'}
             </p>
           </div>
         </div>

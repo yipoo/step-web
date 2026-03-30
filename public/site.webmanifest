@@ -1,6 +1,6 @@
 {
-  "name": "Step - 跬步",
-  "short_name": "Step",
+  "name": "MemoryAI - 记住了吗",
+  "short_name": "MemoryAI",
   "description": "智能待办清单，让每一步都算数",
   "start_url": "/",
   "display": "standalone",

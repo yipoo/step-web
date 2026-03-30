@@ -96,7 +96,7 @@ export default async function Home({
             <div className="relative">
               <Image
                 src="/screenshots/home-screen.png"
-                alt="StepToDo App Screenshot"
+                alt="MemoryAI App Screenshot"
                 width={393}
                 height={852}
                 className="rounded-3xl shadow-2xl"

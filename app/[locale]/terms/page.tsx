@@ -7,20 +7,20 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
   const content = locale === 'zh' ? {
     title: '服务条款',
     lastUpdated: '最后更新：2025年11月13日',
-    intro: '欢迎使用 Step（跬步）。使用我们的服务前，请仔细阅读以下条款。',
+    intro: '欢迎使用 MemoryAI（记住了吗）。使用我们的服务前，请仔细阅读以下条款。',
     sections: [
       {
         title: '1. 接受条款',
         content: [
-          '通过下载、安装或使用 Step 应用程序，您表示同意遵守本服务条款。',
+          '通过下载、安装或使用 MemoryAI 应用程序，您表示同意遵守本服务条款。',
           '',
-          '如果您不同意这些条款，请不要使用 Step。',
+          '如果您不同意这些条款，请不要使用 MemoryAI。',
         ],
       },
       {
         title: '2. 服务说明',
         content: [
-          'Step 是一款个人效率管理应用，提供以下功能：',
+          'MemoryAI 是一款个人效率管理应用，提供以下功能：',
           '• 待办事项管理',
           '• 循环任务和习惯养成',
           '• 番茄钟计时',
@@ -34,7 +34,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
         title: '3. 用户责任',
         content: [
           '您同意：',
-          '• 仅将 Step 用于合法目的',
+          '• 仅将 MemoryAI 用于合法目的',
           '• 不尝试破解、反编译或修改应用',
           '• 不利用应用进行任何违法活动',
           '• 对您账户的所有活动负责',
@@ -44,17 +44,17 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '4. 知识产权',
         content: [
-          'Step 的所有内容，包括但不限于：',
+          'MemoryAI 的所有内容，包括但不限于：',
           '• 应用程序代码',
           '• 界面设计',
           '• Logo 和商标',
           '• 文档和帮助内容',
           '',
-          '均为 Step 团队所有，受知识产权法保护。',
+          '均为 MemoryAI 团队所有，受知识产权法保护。',
           '',
           '您不得：',
           '• 复制、修改或分发应用',
-          '• 使用 Step 的商标或 Logo',
+          '• 使用 MemoryAI 的商标或 Logo',
           '• 创建衍生作品',
         ],
       },
@@ -74,7 +74,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '6. 免责声明',
         content: [
-          'Step 按"现状"提供，不提供任何明示或暗示的保证。',
+          'MemoryAI 按"现状"提供，不提供任何明示或暗示的保证。',
           '',
           '我们不保证：',
           '• 服务不会中断',
@@ -82,13 +82,13 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
           '• 满足您的所有需求',
           '• 数据不会丢失',
           '',
-          '您使用 Step 的风险由您自行承担。',
+          '您使用 MemoryAI 的风险由您自行承担。',
         ],
       },
       {
         title: '7. 责任限制',
         content: [
-          '在法律允许的最大范围内，Step 团队不对以下情况承担责任：',
+          '在法律允许的最大范围内，MemoryAI 团队不对以下情况承担责任：',
           '• 直接或间接损失',
           '• 利润损失',
           '• 数据丢失',
@@ -126,7 +126,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '10. 账户终止',
         content: [
-          '您可以随时停止使用 Step 并卸载应用。',
+          '您可以随时停止使用 MemoryAI 并卸载应用。',
           '',
           '我们保留在以下情况下终止或限制您访问的权利：',
           '• 违反本服务条款',
@@ -139,7 +139,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '11. 第三方服务',
         content: [
-          'Step 可能包含第三方服务的链接（如 App Store）。',
+          'MemoryAI 可能包含第三方服务的链接（如 App Store）。',
           '',
           '我们不对第三方服务负责，这些服务受其自己的条款约束。',
         ],
@@ -149,7 +149,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
         content: [
           '本条款受中华人民共和国法律管辖。',
           '',
-          '任何争议应首先通过友好协商解决。协商不成的，可提交至 Step 所在地有管辖权的法院解决。',
+          '任何争议应首先通过友好协商解决。协商不成的，可提交至 MemoryAI 所在地有管辖权的法院解决。',
         ],
       },
       {
@@ -173,20 +173,20 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
   } : {
     title: 'Terms of Service',
     lastUpdated: 'Last Updated: November 13, 2025',
-    intro: 'Welcome to Step. Please read these terms carefully before using our service.',
+    intro: 'Welcome to MemoryAI. Please read these terms carefully before using our service.',
     sections: [
       {
         title: '1. Acceptance of Terms',
         content: [
-          'By downloading, installing, or using the Step application, you agree to be bound by these Terms of Service.',
+          'By downloading, installing, or using the MemoryAI application, you agree to be bound by these Terms of Service.',
           '',
-          'If you do not agree to these terms, please do not use Step.',
+          'If you do not agree to these terms, please do not use MemoryAI.',
         ],
       },
       {
         title: '2. Service Description',
         content: [
-          'Step is a personal productivity management application providing:',
+          'MemoryAI is a personal productivity management application providing:',
           '• Todo item management',
           '• Recurring tasks and habit formation',
           '• Pomodoro timer',
@@ -200,7 +200,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
         title: '3. User Responsibilities',
         content: [
           'You agree to:',
-          '• Use Step only for lawful purposes',
+          '• Use MemoryAI only for lawful purposes',
           '• Not attempt to crack, decompile, or modify the app',
           '• Not use the app for any illegal activities',
           '• Be responsible for all activities in your account',
@@ -210,17 +210,17 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '4. Intellectual Property',
         content: [
-          'All Step content, including but not limited to:',
+          'All MemoryAI content, including but not limited to:',
           '• Application code',
           '• Interface design',
           '• Logos and trademarks',
           '• Documentation and help content',
           '',
-          'Is owned by the Step team and protected by intellectual property laws.',
+          'Is owned by the MemoryAI team and protected by intellectual property laws.',
           '',
           'You may not:',
           '• Copy, modify, or distribute the app',
-          '• Use Step\'s trademarks or logos',
+          '• Use MemoryAI\'s trademarks or logos',
           '• Create derivative works',
         ],
       },
@@ -240,7 +240,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '6. Disclaimer',
         content: [
-          'Step is provided "as is" without any express or implied warranties.',
+          'MemoryAI is provided "as is" without any express or implied warranties.',
           '',
           'We do not guarantee that:',
           '• Service will be uninterrupted',
@@ -248,13 +248,13 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
           '• Meet all your requirements',
           '• Data will not be lost',
           '',
-          'You use Step at your own risk.',
+          'You use MemoryAI at your own risk.',
         ],
       },
       {
         title: '7. Limitation of Liability',
         content: [
-          'To the maximum extent permitted by law, the Step team is not liable for:',
+          'To the maximum extent permitted by law, the MemoryAI team is not liable for:',
           '• Direct or indirect losses',
           '• Loss of profits',
           '• Data loss',
@@ -292,7 +292,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '10. Account Termination',
         content: [
-          'You may stop using Step and uninstall the app at any time.',
+          'You may stop using MemoryAI and uninstall the app at any time.',
           '',
           'We reserve the right to terminate or limit your access if:',
           '• You violate these Terms of Service',
@@ -305,7 +305,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
       {
         title: '11. Third-Party Services',
         content: [
-          'Step may contain links to third-party services (such as App Store).',
+          'MemoryAI may contain links to third-party services (such as App Store).',
           '',
           'We are not responsible for third-party services, which are governed by their own terms.',
         ],
@@ -315,7 +315,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
         content: [
           'These terms are governed by the laws of the People\'s Republic of China.',
           '',
-          'Any disputes should first be resolved through friendly negotiation. If negotiation fails, they may be submitted to a court with jurisdiction where Step is located.',
+          'Any disputes should first be resolved through friendly negotiation. If negotiation fails, they may be submitted to a court with jurisdiction where MemoryAI is located.',
         ],
       },
       {
@@ -391,11 +391,11 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
           <div className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800 text-center">
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               {locale === 'zh' 
-                ? '感谢您使用 Step，祝您工作生活更高效！' 
-                : 'Thank you for using Step. We wish you greater productivity!'}
+                ? '感谢您使用 MemoryAI，祝您工作生活更高效！' 
+                : 'Thank you for using MemoryAI. We wish you greater productivity!'}
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500">
-              © 2025 Step. {locale === 'zh' ? '保留所有权利。' : 'All rights reserved.'}
+              © 2025 MemoryAI. {locale === 'zh' ? '保留所有权利。' : 'All rights reserved.'}
             </p>
           </div>
         </div>

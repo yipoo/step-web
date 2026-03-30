@@ -7,16 +7,16 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
   const content = locale === 'zh' ? {
     title: '隐私政策',
     lastUpdated: '最后更新：2025年12月2日',
-    intro: 'Step（跬步）非常重视用户的隐私保护。本隐私政策说明了我们如何收集、使用、存储和保护您的信息。',
+    intro: 'MemoryAI（记住了吗）非常重视用户的隐私保护。本隐私政策说明了我们如何收集、使用、存储和保护您的信息。',
     sections: [
       {
         title: '1. 账户注册与数据存储',
         content: [
           '**账户注册要求：**',
-          '使用 Step 需要注册账户。我们使用手机号码和短信验证码进行账户注册和登录验证。',
+          '使用 MemoryAI 需要注册账户。我们使用手机号码和短信验证码进行账户注册和登录验证。',
           '',
           '**数据存储方式：**',
-          'Step 采用混合存储模式，确保您的数据安全和隐私：',
+          'MemoryAI 采用混合存储模式，确保您的数据安全和隐私：',
           '',
           '**存储在服务器的信息（账户信息）：**',
           '• 手机号码（用于账户验证和登录）',
@@ -111,7 +111,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
       {
         title: '4. 权限使用',
         content: [
-          'Step 可能请求以下系统权限：',
+          'MemoryAI 可能请求以下系统权限：',
           '',
           '**通知权限**',
           '用于发送任务提醒和习惯打卡提醒。您可以在系统设置中随时关闭。',
@@ -149,7 +149,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
           '建议您：',
           '• 定期备份设备数据',
           '• 使用设备密码或 Face ID 保护',
-          '• 及时更新 Step 到最新版本',
+          '• 及时更新 MemoryAI 到最新版本',
           '• 妥善保管账户登录信息',
         ],
       },
@@ -167,7 +167,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
       {
         title: '7. 分析数据',
         content: [
-          'Step 不使用任何第三方分析服务。',
+          'MemoryAI 不使用任何第三方分析服务。',
           '',
           '我们可能收集的唯一非个人信息是：',
           '• 崩溃报告（不包含任何用户数据）',
@@ -179,7 +179,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
       {
         title: '8. 儿童隐私',
         content: [
-          'Step 适合所有年龄段用户使用。我们不会故意收集13岁以下儿童的信息。',
+          'MemoryAI 适合所有年龄段用户使用。我们不会故意收集13岁以下儿童的信息。',
           '',
           '如果您是13岁以下的儿童，请在家长或监护人的同意和指导下使用本应用。',
           '',
@@ -191,7 +191,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
         content: [
           '我们可能会不时更新本隐私政策。更新后的政策将在应用内和官网发布。',
           '',
-          '重大变更会通过应用内通知告知用户。继续使用 Step 即表示您接受更新后的政策。',
+          '重大变更会通过应用内通知告知用户。继续使用 MemoryAI 即表示您接受更新后的政策。',
         ],
       },
       {
@@ -231,16 +231,16 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
   } : {
     title: 'Privacy Policy',
     lastUpdated: 'Last Updated: December 2, 2025',
-    intro: 'Step takes your privacy very seriously. This Privacy Policy explains how we collect, use, store, and protect your information.',
+    intro: 'MemoryAI takes your privacy very seriously. This Privacy Policy explains how we collect, use, store, and protect your information.',
     sections: [
       {
         title: '1. Account Registration and Data Storage',
         content: [
           '**Account Registration Requirement:**',
-          'Using Step requires account registration. We use phone numbers and SMS verification codes for account registration and login verification.',
+          'Using MemoryAI requires account registration. We use phone numbers and SMS verification codes for account registration and login verification.',
           '',
           '**Data Storage Methods:**',
-          'Step uses a hybrid storage model to ensure your data security and privacy:',
+          'MemoryAI uses a hybrid storage model to ensure your data security and privacy:',
           '',
           '**Information Stored on Servers (Account Information):**',
           '• Phone number (for account verification and login)',
@@ -335,7 +335,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
       {
         title: '4. Permission Usage',
         content: [
-          'Step may request the following system permissions:',
+          'MemoryAI may request the following system permissions:',
           '',
           '**Notification Permission**',
           'Used to send task reminders and habit check-in reminders. You can turn it off anytime in system settings.',
@@ -373,7 +373,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
           'We recommend you:',
           '• Regularly backup device data',
           '• Use device passcode or Face ID protection',
-          '• Update Step to the latest version promptly',
+          '• Update MemoryAI to the latest version promptly',
           '• Keep your account login information secure',
         ],
       },
@@ -391,7 +391,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
       {
         title: '7. Analytics Data',
         content: [
-          'Step does not use any third-party analytics services.',
+          'MemoryAI does not use any third-party analytics services.',
           '',
           'The only non-personal information we may collect:',
           '• Crash reports (containing no user data)',
@@ -403,7 +403,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
       {
         title: '8. Children\'s Privacy',
         content: [
-          'Step is suitable for users of all ages. We do not knowingly collect information from children under 13.',
+          'MemoryAI is suitable for users of all ages. We do not knowingly collect information from children under 13.',
           '',
           'If you are under 13 years old, please use this app with the consent and guidance of a parent or guardian.',
           '',
@@ -415,7 +415,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
         content: [
           'We may update this Privacy Policy from time to time. Updated policies will be published in-app and on our website.',
           '',
-          'Major changes will be notified through in-app notifications. Continued use of Step indicates acceptance of the updated policy.',
+          'Major changes will be notified through in-app notifications. Continued use of MemoryAI indicates acceptance of the updated policy.',
         ],
       },
       {
@@ -509,11 +509,11 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
           <div className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800 text-center">
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               {locale === 'zh' 
-                ? '感谢您信任 Step，我们将持续保护您的隐私。' 
-                : 'Thank you for trusting Step. We will continue to protect your privacy.'}
+                ? '感谢您信任 MemoryAI，我们将持续保护您的隐私。' 
+                : 'Thank you for trusting MemoryAI. We will continue to protect your privacy.'}
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500">
-              © 2025 Step. {locale === 'zh' ? '保留所有权利。' : 'All rights reserved.'}
+              © 2025 MemoryAI. {locale === 'zh' ? '保留所有权利。' : 'All rights reserved.'}
             </p>
           </div>
         </div>

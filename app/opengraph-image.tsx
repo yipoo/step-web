@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 // Image metadata
-export const alt = 'Step - 跬步';
+export const alt = 'MemoryAI - 记住了吗';
 export const size = {
   width: 1200,
   height: 630,
@@ -47,7 +47,7 @@ export default async function OgImage() {
               fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif',
             }}
           >
-            S
+            M
           </div>
         </div>
         <div
@@ -59,7 +59,7 @@ export default async function OgImage() {
             marginBottom: 20,
           }}
         >
-          Step
+          MemoryAI
         </div>
         <div
           style={{
@@ -68,7 +68,7 @@ export default async function OgImage() {
             fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif',
           }}
         >
-          不积跬步，无以至千里
+          记住了吗，每一步都算数
         </div>
       </div>
     ),

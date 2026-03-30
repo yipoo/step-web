@@ -6,9 +6,9 @@
     "download": "下载"
   },
   "hero": {
-    "title": "不积跬步，无以至千里",
+    "title": "记住了吗？每一步都算数",
     "subtitle": "智能待办清单，让每一步都算数",
-    "description": "Step（跬步）是一款帮助你掌控节奏、养成习惯、实现目标的智能待办清单应用。",
+    "description": "MemoryAI（记住了吗）是一款帮助你掌控节奏、养成习惯、实现目标的智能待办清单应用。",
     "downloadButton": "免费下载",
     "learnMore": "了解更多"
   },
@@ -33,7 +33,7 @@
     }
   },
   "why": {
-    "title": "为什么选择 Step",
+    "title": "为什么选择 MemoryAI",
     "minimalist": {
       "title": "极简设计",
       "description": "上手即用，无需学习"
@@ -57,7 +57,7 @@
     "button": "立即下载"
   },
   "footer": {
-    "slogan": "不积跬步，无以至千里",
+    "slogan": "记住了吗，每一步都算数",
     "product": "产品",
     "features": "功能介绍",
     "download": "下载应用",
@@ -66,7 +66,7 @@
     "privacy": "隐私政策",
     "terms": "服务条款",
     "contact": "联系我们",
-    "copyright": "© 2025 Step. 保留所有权利。"
+    "copyright": "© 2025 MemoryAI. 保留所有权利。"
   },
   "blog": {
     "title": "博客",

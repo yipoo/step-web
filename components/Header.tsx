@@ -26,13 +26,13 @@ export default function Header() {
             <Link href={`/${locale}`} className="flex items-center space-x-2">
               <Image
                 src="/app-icon.png"
-                alt="StepToDo"
+                alt="MemoryAI"
                 width={32}
                 height={32}
                 className="rounded-lg"
                 unoptimized
               />
-              <span className="text-xl font-semibold text-gray-900 dark:text-white">Step</span>
+              <span className="text-xl font-semibold text-gray-900 dark:text-white">MemoryAI</span>
             </Link>
           </div>
 

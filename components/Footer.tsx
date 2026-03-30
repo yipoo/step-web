@@ -29,7 +29,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-gradient-to-br from-brand-blue to-brand-indigo rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">S</span>
               </div>
-              <span className="text-xl font-semibold text-gray-900 dark:text-white">Step</span>
+              <span className="text-xl font-semibold text-gray-900 dark:text-white">MemoryAI</span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4 max-w-md">
               {t('slogan')}

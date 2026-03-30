@@ -138,14 +138,12 @@ export default function ParticleQuote({ locale }: ParticleQuoteProps) {
         >
           {locale === 'zh' ? (
           <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 dark:text-gray-100 leading-relaxed">
-              不积
-              <span className="text-brand-blue font-bold mx-1">跬步</span>
-              ，无以至
-              <span className="text-brand-green font-bold ml-1">千里</span>
+              <span className="text-brand-blue font-bold">MemoryAI</span>
+              <span className="text-gray-900 dark:text-white">，记住了吗</span>
             </h1>
           ) : (
             <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 dark:text-gray-100 leading-relaxed">
-              Every <span className="text-brand-blue font-bold mx-1">Step</span> Counts
+              Every <span className="text-brand-blue font-bold mx-1">MemoryAI</span> Counts
             </h1>
           )}
         </div>
