@@ -14,7 +14,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
     "gray-matter": "^4.0.3",
-    "next": "16.0.2",
+    "next": "16.0.10",
     "next-intl": "^4.5.2",
     "next-seo": "^7.0.1",
     "react": "19.2.0",
